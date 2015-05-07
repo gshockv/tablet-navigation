@@ -6,4 +6,6 @@
     <dimen name="toolbarHeight">60dp</dimen>
     <dimen name="sideMenuWidth">512dp</dimen>
     <dimen name="sideMenuHeaderTextSize">32sp</dimen>
+    <dimen name="mainContainerPadding">8dp</dimen>
+    <dimen name="sideMenuPaddingRight">0dp</dimen>
 </resources>

@@ -12,12 +12,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="@dimen/mainContainerPadding"
+            android:paddingRight="@dimen/mainContainerPadding">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:orientation="horizontal"
-                android:layout_margin="8dp">
+                android:orientation="horizontal">
                 <View
                     android:layout_width="0dip"
                     android:layout_height="match_parent"
@@ -34,9 +37,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
                 android:background="@color/yellowTile"/>
         </LinearLayout>
         <View
