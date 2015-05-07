@@ -4,6 +4,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <dimen name="toolbarHeight">60dp</dimen>
-    <dimen name="sideMenuWidth">512dp</dimen>
-    <dimen name="sideMenuHeaderTextSize">32sp</dimen>
+    <dimen name="sideMenuWidth">400dp</dimen>
+    <dimen name="sideMenuHeaderTextSize">24sp</dimen>
 </resources>
