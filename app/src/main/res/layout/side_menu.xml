@@ -3,9 +3,7 @@
     android:layout_width="@dimen/sideMenuWidth"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="start"
-    android:layout_marginRight="@dimen/sideMenuPaddingRight"
-    android:paddingRight="@dimen/sideMenuPaddingRight">
+    android:layout_gravity="start">
 
     <LinearLayout
         android:layout_width="match_parent"
