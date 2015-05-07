@@ -6,30 +6,42 @@
     android:orientation="vertical">
 
     <include layout="@layout/app_toolbar" />
-
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:orientation="horizontal"
-        android:layout_margin="8dp">
-        <View
-            android:layout_width="0dip"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="0.5"
-            android:background="@color/purpleTile"
-            android:layout_marginRight="4dp"/>
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:layout_margin="8dp">
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="@color/purpleTile"
+                    android:layout_marginRight="4dp"/>
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="@color/greedTile"
+                    android:layout_marginLeft="4dp"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/yellowTile"/>
+        </LinearLayout>
         <View
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5"
-            android:background="@color/greedTile"
-            android:layout_marginLeft="4dp"/>
-    </LinearLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="@color/yellowTile"/>
+            android:id="@+id/toolbar_shadow"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+    </FrameLayout>
 </LinearLayout>

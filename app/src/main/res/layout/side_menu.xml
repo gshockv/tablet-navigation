@@ -13,11 +13,9 @@
         android:orientation="horizontal"
         android:layout_gravity="center_vertical">
         <ImageView
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:background="@drawable/avatar_circle"
-            android:padding="16dp"
-            android:src="@drawable/ic_mood_grey600"/>
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:src="@drawable/circle_avatar"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
